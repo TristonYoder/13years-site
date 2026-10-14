@@ -23,7 +23,7 @@ The Pager does nothing on its own: it needs a **13 Years Producer** on your netw
 
 If the Pager can not find the Producer, or the Producer is hosted elsewhere, enter its address yourself:
 
-- On the **Waiting for Producer…** screen, type the address into the **IP / Host** field and choose **Connect**.
+- On the **Waiting for Producer…** screen, type the address into the field (it reads **IP or hostname, optional :port**) and choose **Connect**.
 - Or open **Settings** (the gear in the Pager's top bar; on Apple TV select it with the remote; on Mac also **13 Years ▸ Settings…**, ⌘,), go to the **Producer** section, enter the address in **IP / Host** and choose **Connect**.
 
 Use `host` or `host:port`, for example `192.168.1.20` or `clock.example.com:13380`. The default port is 13380. Clear the field to go back to finding the Producer automatically.
