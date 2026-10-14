@@ -1,0 +1,10 @@
+<div class="badges">
+{%- if site.app_store.pager_url != "" %}
+<a class="btn" href="{{ site.app_store.pager_url }}"><small>Pager for iPhone, iPad, Apple TV</small> App Store</a>
+{%- elsif site.app_store.testflight_url != "" %}
+<a class="btn" href="{{ site.app_store.testflight_url }}"><small>Pager beta for iPhone, iPad, Apple TV, Mac</small> Join on TestFlight</a>
+{%- else %}
+<span class="btn soon" role="note">Pager <small>App Store, coming soon</small></span>
+{%- endif %}
+<a class="btn alt" href="{{ site.app_store.mac_url }}"><small>Producer and Mac Pager</small> Mac downloads</a>
+</div>

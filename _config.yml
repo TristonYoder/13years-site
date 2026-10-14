@@ -1,0 +1,39 @@
+# Site-wide values. Edit here (and in _data/) -- pages read from these.
+title: 13 Years
+tagline: Cue lights and pagers for live production
+description: >-
+  13 Years is a cue light and pager system for live production. A producer runs
+  the show; every role gets STANDBY and GO on the device already in their hand.
+  No account, no analytics, nothing sent to the developer.
+
+url: "https://13years.7co.dev"   # no trailing slash
+domain: 13years.7co.dev          # display only; the CNAME file must match
+baseurl: ""
+
+publisher: 7 & Co LLC
+email: triston@7andco.studio
+copyright_year: 2026
+
+# App Store link for the Pager. Leave blank until live; the badge then
+# switches to a real link automatically.
+app_store:
+  pager_url: ""
+  testflight_url: "https://testflight.apple.com/join/yydaPnPF"
+  mac_url: "https://github.com/TristonYoder/13years/releases/latest"
+  source_url: "https://github.com/TristonYoder/13years"
+
+plugins:
+  - jekyll-sitemap
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle

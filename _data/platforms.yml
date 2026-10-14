@@ -1,0 +1,12 @@
+- name: Pager
+  body: iPhone, iPad, Apple TV and Mac. Shows cues, countdowns, notes and messages for your role.
+  note: Needs a 13 Years Producer on your network.
+- name: Producer
+  body: Mac and iPad. Runs the plan, sends cues, optionally connects to Planning Center.
+  note: Mac downloads are on GitHub Releases.
+- name: ESP32 hardware pagers
+  body: Small dedicated pagers built from ESP32 boards, for crew who do not want a phone on stage.
+  note: Firmware is in the source repository.
+- name: Hosted Producer
+  body: Run the Producer headless on a server so it is always on for your team.
+  note: Whoever runs the server is responsible for it.

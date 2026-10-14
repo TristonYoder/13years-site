@@ -1,0 +1,13 @@
+<section class="hero"><div class="wrap hero-grid">
+<div class="hero-copy">
+<p class="eyebrow">{{ include.eyebrow | default: site.tagline }}</p>
+<h1>{{ include.title | default: site.title }}</h1>
+<p class="lede">{{ include.lede | default: site.description }}</p>
+{% include badges.html %}
+<p class="fine"><a href="{{ site.app_store.source_url }}">Source on GitHub</a> &middot; <a href="{{ '/support/' | relative_url }}">Get help</a> &middot; <a href="{{ '/privacy/' | relative_url }}">Privacy policy</a></p>
+</div>
+<div class="hero-art" aria-hidden="true">
+<div class="pager standby"><span class="p-role">Host</span><span class="p-state">STANDBY</span><span class="p-item">Welcome</span><span class="p-count">0:42</span></div>
+<div class="pager go"><span class="p-role">Host</span><span class="p-state">GO</span><span class="p-item">Welcome</span><span class="p-count">0:00</span></div>
+</div>
+</div></section>

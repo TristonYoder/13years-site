@@ -1,0 +1,8 @@
+header:
+  - { title: Home, url: / }
+  - { title: Support, url: /support/ }
+  - { title: Privacy, url: /privacy/ }
+footer:
+  - { title: Privacy, url: /privacy/ }
+  - { title: Support, url: /support/ }
+  - { title: Licenses, url: /licenses/ }
