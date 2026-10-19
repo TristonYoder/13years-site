@@ -6,8 +6,8 @@ description: >-
   the show; every role gets STANDBY and GO on the device already in their hand.
   No account, no analytics, nothing sent to the developer.
 
-url: "https://13years.7co.dev"   # no trailing slash
-domain: 13years.7co.dev          # display only; the CNAME file must match
+url: "https://13years.app"       # no trailing slash
+domain: 13years.app              # display only; the CNAME file must match
 baseurl: ""
 
 publisher: 7 & Co LLC
