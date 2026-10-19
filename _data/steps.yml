@@ -1,6 +1,9 @@
 - title: Run the Producer
-  body: Start the 13 Years Producer on a Mac or iPad, or use a hosted headless Producer your team runs.
+  colour: red
+  body: On a Mac or iPad, or a hosted headless Producer your team keeps on.
 - title: Open a Pager
-  body: Put an iPhone, iPad, Apple TV, Mac or ESP32 pager on the same network. It finds the Producer automatically, or you enter host:port.
-- title: Choose a role
-  body: Pick host, tech, band or any other role. You see STANDBY, GO, the countdown and your notes.
+  colour: amber
+  body: iPhone, iPad, Apple TV, Mac or ESP32 on the same network. It finds the Producer, or type `host:13380`.
+- title: Pick a role
+  colour: green
+  body: Host, tech, band, anything. STANDBY, GO, the countdown and your notes, just for you.

@@ -1,11 +1,11 @@
-<footer class="site"><div class="wrap">
+<footer class="site wrap">
 <ul class="foot-nav">
 {%- for item in site.data.nav.footer %}
-<li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+<li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
 {%- endfor %}
 <li><a href="{{ site.app_store.source_url }}">Source</a></li>
 </ul>
-<p>&copy; {{ site.copyright_year }} {{ site.publisher }}. {{ site.title }} is published by {{ site.publisher }}.</p>
+<p>&copy; {{ site.copyright_year }} {{ site.publisher }}. {{ site.title }} is published by {{ site.publisher }}. Open source under the AGPL-3.0.</p>
 <p>Contact: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 <p class="fine">Apple, App Store, iPhone, iPad, Mac and Apple TV are trademarks of Apple Inc. Planning Center is a trademark of Planning Center Online, Inc.</p>
-</div></footer>
+</footer>

@@ -1,10 +1,13 @@
-<div class="badges">
+<div class="btns">
 {%- if site.app_store.pager_url != "" %}
-<a class="btn" href="{{ site.app_store.pager_url }}"><small>Pager for iPhone, iPad, Apple TV</small> App Store</a>
+<a class="btn" href="{{ site.app_store.pager_url }}">App Store <small>Pager for iPhone, iPad, Apple TV</small></a>
 {%- elsif site.app_store.testflight_url != "" %}
-<a class="btn" href="{{ site.app_store.testflight_url }}"><small>Pager beta for iPhone, iPad, Apple TV, Mac</small> Join on TestFlight</a>
+<a class="btn" href="{{ site.app_store.testflight_url }}">Join the beta <small>Pager on TestFlight</small></a>
 {%- else %}
 <span class="btn soon" role="note">Pager <small>App Store, coming soon</small></span>
 {%- endif %}
-<a class="btn alt" href="{{ site.app_store.mac_url }}"><small>Producer and Mac Pager</small> Mac downloads</a>
+<a class="btn alt" href="{{ site.app_store.mac_url }}">Mac downloads <small>Producer and Mac Pager</small></a>
+{%- if include.source %}
+<a class="btn alt" href="{{ site.app_store.source_url }}">Source <small>on GitHub</small></a>
+{%- endif %}
 </div>

@@ -230,3 +230,11 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 | `ws` and other npm packages (Server) | Per package |
 
 No third-party code is linked into the Apple-platform apps beyond system frameworks.
+
+## This website
+
+The site at 13years.app serves its own copies of these typefaces; nothing is loaded from a third-party font service.
+
+- **Barlow** and **Barlow Condensed** by Jeremy Tribby, SIL Open Font License 1.1: <https://github.com/jpt/barlow>.
+- **Permanent Marker** by Font Diner, Apache License 2.0: <https://fonts.google.com/specimen/Permanent+Marker/license>.
+- **Inter** by The Inter Project Authors, SIL Open Font License 1.1 (text above).

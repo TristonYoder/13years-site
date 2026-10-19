@@ -1,12 +1,12 @@
-<header class="site"><div class="wrap bar">
-<a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}, home"><span class="th th-l brand-icon"><img src="{{ '/assets/img/mark-light.png' | relative_url }}" alt="" width="38" height="32"></span><span class="th th-d brand-icon"><img src="{{ '/assets/img/mark-dark.png' | relative_url }}" alt="" width="38" height="32"></span><span>{{ site.title }}</span></a>
+<header class="site wrap">
+<a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}, home"><img class="th-l" src="{{ '/assets/img/mark-light.png' | relative_url }}" alt="" width="36" height="30"><img class="th-d" src="{{ '/assets/img/mark-dark.png' | relative_url }}" alt="" width="36" height="30"><span class="tape">{{ site.title }}</span></a>
 <div class="bar-right">
-<nav aria-label="Primary"><ul>
+<nav class="primary" aria-label="Primary"><ul>
 {%- for item in site.data.nav.header %}
-{%- assign cur = false -%}{%- if item.url == "/" and page.url == "/" %}{% assign cur = true %}{% elsif item.url != "/" and page.url == item.url %}{% assign cur = true %}{% endif %}
-<li><a href="{{ item.url | relative_url }}"{% if cur %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+{%- assign anchor = item.url | slice: 0, 2 -%}
+<li{% if anchor == "/#" %} class="anchor"{% endif %}><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
 {%- endfor %}
 </ul></nav>
 {% include theme-toggle.html %}
 </div>
-</div></header>
+</header>

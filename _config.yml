@@ -33,6 +33,8 @@ kramdown:
 
 exclude:
   - README.md
+  - PRODUCT.md
+  - DESIGN.md
   - Gemfile
   - Gemfile.lock
   - vendor

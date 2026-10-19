@@ -1,13 +1,14 @@
-<section class="hero"><div class="wrap hero-grid">
-<div class="hero-copy">
-<p class="eyebrow">{{ include.eyebrow | default: site.tagline }}</p>
-<h1>{{ include.title | default: site.title }}</h1>
-<p class="lede">{{ include.lede | default: site.description }}</p>
+<div class="hero">
+<div>
+<h1>Cue lights for whoever’s on the floor. <span class="tape">no headset needed</span></h1>
+<p class="lede">The producer calls it. Every role sees STANDBY, GO, a synced countdown and their own notes, on the phone already in their pocket.</p>
 {% include badges.html %}
-<p class="fine"><a href="{{ site.app_store.source_url }}">Source on GitHub</a> &middot; <a href="{{ '/support/' | relative_url }}">Get help</a> &middot; <a href="{{ '/privacy/' | relative_url }}">Privacy policy</a></p>
+<p class="fine">No account. No analytics. Nothing sent to us. <a href="{{ site.app_store.source_url }}">Open source</a>.</p>
 </div>
-<div class="hero-art" aria-hidden="true">
-<div class="pager standby"><span class="p-role">Host</span><span class="p-state">STANDBY</span><span class="p-item">Welcome</span><span class="p-count">0:42</span></div>
-<div class="pager go"><span class="p-role">Host</span><span class="p-state">GO</span><span class="p-item">Welcome</span><span class="p-count">0:00</span></div>
+<div class="deck">
+<div class="setlist" aria-hidden="true"><span class="strip l"></span><span class="strip r"></span><h3>Sunday 8:05</h3><ol><li class="done">Doors</li><li class="done">Pre-roll</li><li class="done">Just That Good</li><li class="now">None Like Jesus</li><li>Worship close</li><li>Welcome</li></ol></div>
+<figure class="pager-shot"><img src="{{ '/assets/img/app/pager-standby.webp' | relative_url }}" width="590" height="1213" alt="The 13 Years Pager for the Host role: STANDBY in amber, the song None Like Jesus, a 05:42 countdown, and Host // Worship Close coming up next."><span class="strip" aria-hidden="true"></span></figure>
+<figure class="cue-shot print"><span class="strip" aria-hidden="true"></span><img src="{{ '/assets/img/app/producer-cue-buttons.webp' | relative_url }}" width="697" height="311" alt="The Producer's cue buttons: previous, play, restart, next, STANDBY, GO and CLEAR."></figure>
+<p class="cap">the producer’s buttons, and what the host sees</p>
 </div>
-</div></section>
+</div>

@@ -1,0 +1,18 @@
+{%- assign s = site.data.shots[include.key] -%}
+<section class="section" id="{{ include.key }}">
+<h2><span class="tape">{{ s.heading }}</span></h2>
+<p class="intro">{{ s.intro }}</p>
+<div class="shot{% if s.flip %} flip{% endif %}">
+<figure class="print"><span class="strip a" aria-hidden="true"></span><span class="strip b" aria-hidden="true"></span>
+<img src="{{ '/assets/img/app/' | append: s.img | relative_url }}" width="1800" height="1125" loading="lazy" alt="{{ s.alt | escape }}">
+{%- for d in s.dots %}
+<span class="dot{% if d.c %} {{ d.c }}{% endif %}" style="--x:{{ d.x }}%;--y:{{ d.y }}%" aria-hidden="true">{{ forloop.index }}</span>
+{%- endfor %}
+</figure>
+<ol class="callouts">
+{%- for d in s.dots %}
+<li><span class="dot{% if d.c %} {{ d.c }}{% endif %}" aria-hidden="true">{{ forloop.index }}</span><div><b>{{ d.title }}</b><p>{{ d.body }}</p></div></li>
+{%- endfor %}
+</ol>
+</div>
+</section>

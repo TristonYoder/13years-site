@@ -1,0 +1,30 @@
+# Annotated Producer screenshots on the home page. Images come from the app repo's
+# Screenshots/<version>/producer-mac, converted to WebP in assets/img/app/.
+# Dot x/y are percentages of the image; colour is amber (default), g or r.
+booth:
+  heading: From the booth
+  intro: The Producer runs on a Mac or iPad. It holds the plan, the clock and every role, and it shows you exactly what each pager is showing.
+  img: producer-pagers.webp
+  alt: "Producer for Mac, Pagers view: the current item None Like Jesus with a 05:42 clock, STANDBY, GO and CLEAR buttons, role cards for Host, Band, Backstage and Lighting, and a live preview of the Host pager."
+  dots:
+    - { x: 74.6, y: 9, title: "Standby. Go. Clear.", body: "Big buttons for the call. Arrows step through the plan; play starts the item’s clock." }
+    - { x: 32.6, y: 31, c: g, title: "Every role, one tap", body: "Cue the host, the band, backstage or lighting together or one at a time, and see who’s on standby." }
+    - { x: 97.6, y: 46, c: r, title: "See their screen", body: "A live preview of any role’s pager, so you know what they’re looking at." }
+plan:
+  heading: The plan you already built
+  intro: "The run sheet reads your service plan from Planning Center, then keeps score as the show runs: what’s now, what’s next, and how far you’ve drifted."
+  img: producer-runsheet.webp
+  flip: true
+  alt: "Producer run sheet: grouped items with start times, planned and elapsed time and drift, the current item highlighted, and a Now and Next panel with role notes."
+  dots:
+    - { x: 11.4, y: 30.5, title: "Sync with Planning Center", body: "Items, lengths and people come straight from your plan. Optional; you can build it by hand too." }
+    - { x: 57, y: 44, c: g, title: "Drift, live", body: "Planned against actual for every item, so you know when to stretch and when to cut." }
+    - { x: 72.5, y: 29.7, c: r, title: "Now & next", body: "The current and next item with notes for each role, ready before you call it." }
+messages:
+  heading: Say it without the headset
+  intro: Message one role or everyone. Pagers show it on screen and the reply comes back to the booth.
+  img: producer-messages.webp
+  alt: "Producer Messages view: a thread with the Band role. The producer wrote Start the countdown song on my GO; the band replied Copy, in-ears checked, ready; then a high-priority message, Stretch the last chorus, host is running long."
+  dots:
+    - { x: 10.6, y: 30.4, title: "Everyone, or just the band", body: "A thread per role, plus one for the whole team." }
+    - { x: 77, y: 41, c: r, title: "High priority when it counts", body: "“Stretch the last chorus” shouldn’t wait for someone to look down." }
