@@ -1,5 +1,5 @@
 <ol class="steps">
 {%- for s in site.data.steps %}
-<li><h3>{{ s.title }}</h3><p>{{ s.body }}</p></li>
+<li><span class="spike" style="--c:var(--{{ s.colour }})" aria-hidden="true"></span><h3>{{ s.title }}</h3><p>{{ s.body | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p></li>
 {%- endfor %}
 </ol>

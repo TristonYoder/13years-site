@@ -1,7 +1,9 @@
+# url starting with "/#" is an anchor on the home page; those links hide on phones.
 header:
-  - { title: Home, url: / }
+  - { title: The Producer, url: "/#booth" }
+  - { title: The Pager, url: "/#roles" }
+  - { title: Setup, url: "/#setup" }
   - { title: Support, url: /support/ }
-  - { title: Privacy, url: /privacy/ }
 footer:
   - { title: Privacy, url: /privacy/ }
   - { title: Support, url: /support/ }
