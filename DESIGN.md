@@ -3,7 +3,7 @@
 The site is the stage floor before a show. A Sharpie setlist is gaffer-taped down, real app screenshots are taped beside it like printouts, and marker callouts explain them. Implemented in `assets/css/site.css`, `_layouts/` and `_includes/`; the original mockup is `_mockups/4-setlist.html`.
 
 ## Materials
-- **Floor:** Marley deck. Light `#C9CDD3`, dark `#0D0E10`, with a faint 7px vertical grain and 180px seams. Light or dark follows the system, with the three-way toggle (key `ty-theme`).
+- **Floor:** Marley deck. Light `#C9CDD3`, dark `#0D0E10` as a flat, untextured field (no grain or seam lines). Light or dark follows the system, with the three-way toggle (key `ty-theme`).
 - **Gaffer tape:** matte strips (`--tape` `#1E1F23` light, `#2B2D33` dark) with torn ends (clip-path). Used for section headings, the wordmark tag, and to hold prints down.
 - **Spike tape:** the only colour. Red `#E5243B`, amber `#F5B826`, green `#26C759`. Amber and green keep their cue meaning (STANDBY, GO); red marks the first step or a warning.
 - **Paper:** white prints and setlists with a soft offset shadow, rotated a few degrees. Never cream.
