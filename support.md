@@ -45,7 +45,7 @@ Use `host` or `host:port`, for example `192.168.1.20` or `clock.example.com:1338
 
 ## Downloads
 
-- Pager beta: [TestFlight](https://testflight.apple.com/join/yydaPnPF)
+- Pager beta: [TestFlight](https://testflight.apple.com/join/sbn2ecQQ)
 - Producer for Mac and the Mac Pager (disk images): [GitHub Releases](https://github.com/TristonYoder/13years/releases)
 
 ## Source code
