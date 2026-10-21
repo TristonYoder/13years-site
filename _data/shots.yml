@@ -1,7 +1,7 @@
 # Annotated screenshots on the home page. Images come from the app repo's
 # Screenshots/<version>/<app>, converted to WebP in assets/img/app/. w/h default to 1800x1125;
 # device: ipad draws an iPad bezel instead of a white print, with dots placed on the screen.
-# Dot x/y are percentages of the image; colour is amber (default), g or r.
+# Dot x/y are percentages of the image; dot color c is amber (default), g or r.
 booth:
   heading: From the booth
   intro: The Producer runs on a Mac or iPad. It holds the plan, the clock and every role, and it shows you exactly what each pager is showing.
@@ -32,7 +32,7 @@ notes:
   dots:
     - { x: 41.5, y: 9.1, title: "Pick your role", body: "Lighting sees lighting notes; the host sees theirs. Switch any time." }
     - { x: 2.9, y: 61, c: g, title: "Your note, under the clock", body: "The note for your role on this item, plus what’s coming next." }
-    - { x: 86, y: 7.5, c: r, title: "Item details, alongside", body: "Everything on the item from the plan, with cues called out in colour. A and A resize the text." }
+    - { x: 86, y: 7.5, c: r, title: "Item details, alongside", body: "Everything on the item from the plan, with cues called out in color. A and A resize the text." }
 messages:
   heading: Say it without the headset
   intro: Message one role or everyone. Pagers show it on screen and the reply comes back to the booth.

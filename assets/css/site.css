@@ -1,6 +1,7 @@
 /* 13 Years site. Hand-written, no dependencies.
    World: the stage floor before a show. Marley deck, gaffer tape, spike tape in
-   cue colours, Sharpie on paper, real app screenshots taped down. See DESIGN.md. */
+   cue colors, Sharpie on paper. Real app screenshots: prints are taped down,
+   devices sit in drawn frames and are never taped. See DESIGN.md. */
 
 @font-face{font-family:"Permanent Marker";src:url(../fonts/permanent-marker-400.woff2) format("woff2");font-weight:400;font-display:swap}
 @font-face{font-family:"Barlow Condensed";src:url(../fonts/barlow-condensed-500.woff2) format("woff2");font-weight:500;font-display:swap}

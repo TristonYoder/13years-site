@@ -5,7 +5,7 @@ The site is the stage floor before a show. A Sharpie setlist is gaffer-taped dow
 ## Materials
 - **Floor:** Marley deck. Light `#C9CDD3`, dark `#0D0E10` as a flat, untextured field (no grain or seam lines). Light or dark follows the system, with the three-way toggle (key `ty-theme`).
 - **Gaffer tape:** matte strips (`--tape` `#1E1F23` light, `#2B2D33` dark) with torn ends (clip-path). Used for section headings, the wordmark tag, and to hold prints down. Never on devices: phones, iPads, the TV and the ESP32 sit on the floor untaped.
-- **Spike tape:** the only colour. Red `#E5243B`, amber `#F5B826`, green `#26C759`. Amber and green keep their cue meaning (STANDBY, GO); red marks the first step or a warning.
+- **Spike tape:** the only color. Red `#E5243B`, amber `#F5B826`, green `#26C759`. Amber and green keep their cue meaning (STANDBY, GO); red marks the first step or a warning.
 - **Paper:** white prints and setlists with a soft offset shadow, rotated a few degrees. Never cream.
 
 ## Type
@@ -21,11 +21,11 @@ The site is the stage floor before a show. A Sharpie setlist is gaffer-taped dow
 
 ## Imagery
 - Use real screenshots from `Screenshots/<version>/<app>` in the app repo (`producer-mac`, `pager-mac`, `pager-ipad`), converted to WebP in `assets/img/app/`. Re-crop when a new version ships.
-- Anything that isn't a screenshot (the interactive pager) is labelled as a simulation. The TV and colour bars behind the lower third are an obvious frame and need no label. The ESP32 shot is the Mac pager at the ESP32's 240×320 size and says so.
+- Anything that isn't a screenshot (the interactive pager) is labeled as a simulation. The TV and color bars behind the lower third are an obvious frame and need no label. The ESP32 shot is the Mac pager at the ESP32's 240×320 size and says so.
 
 ## Motion
-- A Sharpie strike crossing off a setlist item (`scaleX`, 450ms, ease-out) and the pager frame changing colour. Buttons tilt slightly on hover. Respect `prefers-reduced-motion`.
+- A Sharpie strike crossing off a setlist item (`scaleX`, 450ms, ease-out) and the pager frame changing color. Buttons tilt slightly on hover. Respect `prefers-reduced-motion`.
 
 ## Don'ts
 - No icon-card grids, gradients, glass, or soft rounded SaaS cards.
-- Don't use cue colours as decoration that contradicts their meaning (for example, green on something that isn't GO or a go-ahead action).
+- Don't use cue colors as decoration that contradicts their meaning (for example, green on something that isn't GO or a go-ahead action).
