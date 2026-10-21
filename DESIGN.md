@@ -17,7 +17,7 @@ The site is the stage floor before a show. A Sharpie setlist is gaffer-taped dow
 - **Tape button:** torn-edge rectangle, uppercase Barlow 800. Primary is green spike tape, secondary is white paper.
 - **Taped print:** a screenshot on white with two tape strips at opposite corners.
 - **Callout dot:** a numbered spike-tape circle with a 3px ink ring, placed on a screenshot and matched by a numbered list beside it. Dots sit beside the UI they point at, not on top of it.
-- **Pager screenshots:** cropped from the Producer's pager preview and masked to the phone shape (`border-radius:15%/7.5%`). A real iPhone capture (`pager-ios`) instead sits in a drawn iPhone frame (`.pager-shot.iphone`).
+- **Pager screenshots:** real device captures in a drawn frame for their device: iPhone (`.pager-shot.iphone`, from `pager-ios`), iPad (`device: ipad` in `shots.yml`), the ESP32 board, and the TV for the lower third.
 
 ## Imagery
 - Use real screenshots from `Screenshots/<version>/<app>` in the app repo (`producer-mac`, `pager-mac`, `pager-ipad`), converted to WebP in `assets/img/app/`. Re-crop when a new version ships.
