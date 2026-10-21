@@ -1,5 +1,6 @@
-# Annotated Producer screenshots on the home page. Images come from the app repo's
-# Screenshots/<version>/producer-mac, converted to WebP in assets/img/app/.
+# Annotated screenshots on the home page. Images come from the app repo's
+# Screenshots/<version>/<app>, converted to WebP in assets/img/app/. w/h default to 1800x1125;
+# device: ipad draws an iPad bezel instead of a white print, with dots placed on the screen.
 # Dot x/y are percentages of the image; colour is amber (default), g or r.
 booth:
   heading: From the booth
@@ -20,6 +21,18 @@ plan:
     - { x: 11.4, y: 30.5, title: "Sync with Planning Center", body: "Items, lengths and people come straight from your plan. Optional; you can build it by hand too." }
     - { x: 57, y: 44, c: g, title: "Drift, live", body: "Planned against actual for every item, so you know when to stretch and when to cut." }
     - { x: 72.5, y: 29.7, c: r, title: "Now & next", body: "The current and next item with notes for each role, ready before you call it." }
+notes:
+  heading: The whole item, beside the clock
+  intro: On iPad the pager can split. The countdown and your role’s note stay on the left; the item’s full details sit on the right, so you can read the arrangement and its cues without leaving the pager.
+  img: pager-ipad-details.webp
+  device: ipad
+  w: 1800
+  h: 1308
+  alt: "Pager on iPad for the Lighting role, split view: local time, None Like Jesus with 01:28 projected at 4/4 and 88 BPM, the lighting note Wash: Faded Teal, Accent: 1/2 CTO, Spot: White, and Host // Worship Close next. The Item Details panel on the right shows the song's key details, a visual cue, and the verses with a Lights: Stay cue."
+  dots:
+    - { x: 41.5, y: 9.1, title: "Pick your role", body: "Lighting sees lighting notes; the host sees theirs. Switch any time." }
+    - { x: 2.9, y: 61, c: g, title: "Your note, under the clock", body: "The note for your role on this item, plus what’s coming next." }
+    - { x: 86, y: 7.5, c: r, title: "Item details, alongside", body: "Everything on the item from the plan, with cues called out in colour. A and A resize the text." }
 messages:
   heading: Say it without the headset
   intro: Message one role or everyone. Pagers show it on screen and the reply comes back to the booth.

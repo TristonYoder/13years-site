@@ -3,11 +3,13 @@
 <h2><span class="tape">{{ s.heading }}</span></h2>
 <p class="intro">{{ s.intro }}</p>
 <div class="shot{% if s.flip %} flip{% endif %}">
-<figure class="print"><span class="strip a" aria-hidden="true"></span><span class="strip b" aria-hidden="true"></span>
-<img src="{{ '/assets/img/app/' | append: s.img | relative_url }}" width="1800" height="1125" loading="lazy" alt="{{ s.alt | escape }}">
+<figure class="print{% if s.device %} {{ s.device }}{% endif %}">{% unless s.device %}<span class="strip a" aria-hidden="true"></span><span class="strip b" aria-hidden="true"></span>{% endunless %}
+{% if s.device %}<span class="glass">{% endif %}
+<img src="{{ '/assets/img/app/' | append: s.img | relative_url }}" width="{{ s.w | default: 1800 }}" height="{{ s.h | default: 1125 }}" loading="lazy" alt="{{ s.alt | escape }}">
 {%- for d in s.dots %}
 <span class="dot{% if d.c %} {{ d.c }}{% endif %}" style="--x:{{ d.x }}%;--y:{{ d.y }}%" aria-hidden="true">{{ forloop.index }}</span>
 {%- endfor %}
+{% if s.device %}</span>{% endif %}
 </figure>
 <ol class="callouts">
 {%- for d in s.dots %}

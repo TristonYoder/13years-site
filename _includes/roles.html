@@ -1,18 +1,19 @@
+
 <section class="section" id="roles">
 <h2><span class="tape">Everyone gets a pager</span></h2>
 <p class="intro">Pick a role and the pager shows only what that role needs, readable from across the stage. Portrait, landscape or a lower third over your own screen.</p>
 <div class="roles">
 <div class="role">
-<figure class="pager-shot"><img src="{{ '/assets/img/app/pager-standby-plain.webp' | relative_url }}" width="590" height="1213" loading="lazy" alt="Pager in portrait layout: STANDBY, the current song, a 05:42 countdown and the next item."><span class="strip" aria-hidden="true"></span></figure>
+<figure class="pager-shot iphone"><img src="{{ '/assets/img/app/pager-standby-fullscreen.webp' | relative_url }}" width="590" height="1282" loading="lazy" alt="Pager on iPhone with the full screen cue display: the whole screen amber for STANDBY, None Like Jesus with 01:28 left, the host’s note, and Host // Worship Close next."></figure>
 <h3>Phone or iPad</h3><p>STANDBY and GO in big colour, the item and its countdown, what’s next, and your notes.</p>
 </div>
 <div class="role">
-<figure class="pager-shot"><img src="{{ '/assets/img/app/pager-lower-third.webp' | relative_url }}" width="590" height="1213" loading="lazy" alt="Pager in lower-third layout: a slim STANDBY and 05:42 bar with an amber frame."><span class="strip" style="--c:var(--green)" aria-hidden="true"></span></figure>
-<h3>Lower third</h3><p>A slim strip of cue and countdown for an Apple TV or a confidence monitor.</p>
+<figure class="esp"><img src="{{ '/assets/img/app/pager-esp32.webp' | relative_url }}" width="480" height="640" loading="lazy" alt="The pager at the ESP32’s 240 by 320 screen size with the full screen cue display: the whole screen green for GO, None Like Jesus with 01:28 left, the host’s note, and Host // Worship Close next."><div class="pins" aria-hidden="true"></div></figure>
+<h3>ESP32 hardware</h3><p>A small dedicated pager for crew who would rather not hold a phone on stage. <span class="note">(Mac pager at the ESP32’s screen size)</span></p>
 </div>
-<div class="role">
-<div class="esp" aria-hidden="true"><div class="lcd"><small>Band</small>GO</div><div class="pins"></div></div>
-<h3>ESP32 hardware</h3><p>A small dedicated pager for crew who would rather not hold a phone on stage. <span class="note">(illustration)</span></p>
+<div class="role wide">
+<figure class="tv"><div class="screen"><img src="{{ '/assets/img/app/pager-lower-third.webp' | relative_url }}" width="1600" height="200" loading="lazy" alt="Pager in lower-third layout over a program feed: local time 10:30:09 AM, None Like Jesus, and 01:28 projected."></div></figure>
+<h3>Lower third</h3><p>A slim strip with the time, the item and its countdown over your own picture, for an Apple TV or a confidence monitor. STANDBY and GO take over when they’re called.</p>
 </div>
 </div>
 </section>
